@@ -1,4 +1,4 @@
-package cn.edu.jssvc.lijingyu.weatherpractice.service;
+package cn.edu.jssvc.lijingyu.weatherpractice.Service;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -18,11 +18,8 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 
-/**
- * Created by C515 on 2018/1/2.
- */
-
 public class AutoUpdateService extends Service {
+    @Override
     public IBinder onBind(Intent intent) {
         return null;
     }
