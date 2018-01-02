@@ -25,6 +25,7 @@ import java.io.IOException;
 
 import cn.edu.jssvc.lijingyu.weatherpractice.gson.Forecast;
 import cn.edu.jssvc.lijingyu.weatherpractice.gson.Weather;
+import cn.edu.jssvc.lijingyu.weatherpractice.service.AutoUpdateService;
 import cn.edu.jssvc.lijingyu.weatherpractice.util.HttpUtil;
 import cn.edu.jssvc.lijingyu.weatherpractice.util.Utility;
 import okhttp3.Call;
